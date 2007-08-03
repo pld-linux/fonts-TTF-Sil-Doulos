@@ -30,14 +30,14 @@ face - regular. It is intended for use alongside other Times-like
 fonts where a range of styles (italic, bold) are not needed.
 
 %description -l pl.UTF-8
-Przezaczeniem niniejszego produktu jest zaoferowanie jednej unikodowej
-rodziny fontów, która zawiera obszerny inwentarz glifów potrzebnych do
-niemal każdego systemu pisma opartego na alfabecie łacińskim bądź
-cyrylicy, zarówno dla potrzeb fonetycznych, jak i ortograficznych.
-Dodatkowo dostarczone są znaki i symbole użyteczne dla językoznawców.
-Font ten używa najnowszych technik fontów wspierających złożone
-zagadnienia typograficzne, takie jak optymalne pozycjonowanie
-dowolnych kombinacji glifów bazowych i diakrytyków.
+Przeznaczeniem niniejszego produktu jest zaoferowanie jednej
+unikodowej rodziny fontów, która zawiera obszerny inwentarz glifów
+potrzebnych do niemal każdego systemu pisma opartego na alfabecie
+łacińskim bądź cyrylicy, zarówno dla potrzeb fonetycznych, jak i
+ortograficznych. Dodatkowo dostarczone są znaki i symbole użyteczne
+dla językoznawców. Font ten używa najnowszych technik fontów
+wspierających złożone zagadnienia typograficzne, takie jak optymalne
+pozycjonowanie dowolnych kombinacji glifów bazowych i diakrytyków.
 
 Doulos jest bardzo podobny do fontu Times/Times New Roman, ale zawiera
 tylko jeden krój: zwykły. Jest przeznaczony do użycia razem z innymi
@@ -45,7 +45,7 @@ fontami podobnymi do Timesa, gdzie zestaw stylów (kursywa, pogrubiony)
 nie jest potrzebny.
 
 %prep
-%setup -q -c -T -a0
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
