@@ -1,8 +1,8 @@
 Summary:	Doulos SIL - TrueType Fonts
 Summary(pl.UTF-8):	Doulos SIL - fonty TrueType
-Name:		fonts-TTF-DoulosSIL
+Name:		fonts-TTF-Sil-Doulos
 Version:	4.106
-Release:	1
+Release:	2
 License:	SIL OFL
 Group:		Fonts
 # Source0Download:	http://scripts.sil.org/cms/scripts/render_download.php?site_id=nrsi&format=file&media_id=DoulosSIL4.106b.zip&filename=DoulosSIL4.106.zip
@@ -11,6 +11,7 @@ Source0:	DoulosSIL%{version}.zip
 URL:		http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=DoulosSILfont
 BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
+Obsoletes:	fonts-TTF-DoulosSIL
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
